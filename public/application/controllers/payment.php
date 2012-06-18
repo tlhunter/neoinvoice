@@ -20,7 +20,7 @@ class Payment extends Controller {
 	}
 	
 	function payment_ipn() {
-		$to = 'paypal@renownedmedia.com';
+		$to = 'SET-PAYPAL-ADDRESS-HERE';
 		$status = '';
 		if ($this->paypal->validate_ipn()) {
 			$payment = (float) $this->paypal->ipn_data['payment_gross'];

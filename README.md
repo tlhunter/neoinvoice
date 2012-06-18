@@ -37,6 +37,7 @@ Installation
 * Set the root of the website to public/
 * chmod 777 public/system/logs/ public/assets/logos/
 * Update public/application/config/paypal_config.php with your paypal email address
+* Update public/application/controllers/payment.php with your paypal email address
 * Update public/config.php with your MySQL connection settings and domain names
 * Update public/config.php with an email address for getting SQL dumps
 * If using lighttpd, copy over the resources/lighttpd.conf file
