@@ -1,0 +1,228 @@
+/* General */
+
+.calendar-eightysix {
+	cursor: default;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+}
+	.calendar-eightysix, .calendar-eightysix * {
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+		line-height: 100%;
+	}
+		.calendar-eightysix .c86-header.c86-dragger {
+			cursor: move;
+		}
+		
+			.calendar-eightysix .c86-header .c86-arrow-left, .calendar-eightysix .c86-header .c86-arrow-right {
+				cursor: pointer;
+			}
+			.calendar-eightysix .c86-header .c86-arrow-left {
+				float: left;
+			}
+			.calendar-eightysix .c86-header .c86-arrow-right {
+				float: right;
+			}
+			
+			.calendar-eightysix .c86-header .c86-label {
+				display: inline-block;
+				overflow: visible;
+				width: 146px;
+			}
+				.calendar-eightysix .c86-header .c86-label.c86-clickable {
+					cursor: pointer;
+				}
+		
+		.calendar-eightysix .c86-body {
+			position: relative;
+		}
+			.calendar-eightysix .c86-body .c86-inner .c86-container {
+				position: absolute;
+				left: 0;
+			}
+				
+				.calendar-eightysix .c86-body .c86-inner .c86-container .c86-row div {
+					float: left;
+				}
+				
+					.calendar-eightysix .c86-body .c86-inner .c86-container.c86-month.c86-pickable .c86-row div, 
+					  .calendar-eightysix .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div {
+						cursor: pointer;
+					}
+
+/* Specifc */
+
+.calendar-eightysix.vista {
+	width: 198px;
+	height: 162px;
+	background: url('../images/calendar/vista/background.png');
+	font-family: Calibri, Helvetica, Trebuchet, Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+*html .calendar-eightysix.vista {
+	background-image: url('../images/calendar/vista/background.gif');
+}
+
+	.calendar-eightysix.vista .c86-wrapper {
+		padding: 16px;
+	}
+		
+		/* Header */
+		
+		.calendar-eightysix.vista .c86-header {
+			height: 22px;
+		}
+		
+			.calendar-eightysix.vista .c86-header .c86-arrow-left, .calendar-eightysix.vista .c86-header .c86-arrow-right {
+				width: 12px;
+				height: 16px;
+			}
+			.calendar-eightysix.vista .c86-header .c86-arrow-left {
+				background: transparent url('../images/calendar/vista/arrow-left.gif') 5px 3px no-repeat;
+			}
+				.calendar-eightysix.vista .c86-header .c86-arrow-left:hover {
+					background-image: url('../images/calendar/vista/arrow-left-hover.gif');
+				}
+			.calendar-eightysix.vista .c86-header .c86-arrow-right {
+				background: transparent url('../images/calendar/vista/arrow-right.gif') 3px 3px no-repeat;
+			}
+				.calendar-eightysix.vista .c86-header .c86-arrow-right:hover {
+					background-image: url('../images/calendar/vista/arrow-right-hover.gif');
+				}
+			
+			.calendar-eightysix.vista .c86-header .c86-label {
+				margin-top: 1px;
+				width: 120px;
+			}
+			.calendar-eightysix.vista .c86-header .c86-label.c86-clickable:hover {
+				color: #06c;
+			}
+		
+		/* Body */
+		
+		.calendar-eightysix.vista .c86-body {
+			height: 108px;
+		}
+			
+			.calendar-eightysix.vista .c86-body .c86-inner .c86-container {
+				width: 166px;
+				height: 108px;
+			}
+			
+			/* General container */
+			
+			.calendar-eightysix.vista .c86-body .c86-inner .c86-container .c86-row {
+				width: 166px;
+			}
+			
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container .c86-row div {
+					background-color: #fff;
+				}
+			
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container .c86-row div.c86-non-selectable,
+				  .calendar-eightysix.vista .c86-body .c86-inner .c86-container .c86-row div.c86-non-selectable:hover {
+					color: #dcdcdc !important;
+					cursor: default !important;
+					background: none !important;
+				}
+			
+			/* Month */
+			
+			.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row {
+				height: 122px;
+				height: 15px;
+			}
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row.a {
+					height: 16px;
+					border-bottom: 1px solid #f5f5f5;
+					margin-bottom: 1px;
+				}
+				
+			.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row.a div {
+				cursor: default !important;
+				color: #9c9c9c !important;
+			}
+				
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div {
+					padding-top: 1px;
+					width: 23px;
+					height: 14px;
+				}
+				
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-outside {
+					color: #dcdcdc;
+				}				
+					.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row.a div {
+						color: #9c9c9c;
+					}
+					
+			.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month.c86-pickable .c86-row div:hover {
+				background: url('../images/calendar/vista/day.gif') top no-repeat;
+			}
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-today {
+					background: url('../images/calendar/vista/day.gif') 0 -17px no-repeat;
+				}
+					.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-today:hover {
+						background: url('../images/calendar/vista/day.gif') 0 -34px no-repeat;
+					}
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-selected {
+					background: url('../images/calendar/vista/day.gif') 0 -51px no-repeat;
+					color: #06c !important;
+				}
+					.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-selected:hover {
+						background: url('../images/calendar/vista/day.gif') 0 -68px no-repeat;
+					}
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-today.c86-selected {
+					background: url('../images/calendar/vista/day.gif') 0 -85px no-repeat;
+				}
+					.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month .c86-row div.c86-today.c86-selected:hover {
+						background: url('../images/calendar/vista/day.gif') 0 -102px no-repeat;
+					}
+		
+			/* Year & decade */
+			
+			.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row {
+				height: 36px;
+			}
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div {
+					width: 41px;
+					padding-top: 11px;
+					height: 24px;
+				}
+				
+				.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div:hover {
+					background: url('../images/calendar/vista/year-decade.gif') top no-repeat;
+				}
+					.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-today {
+						background: url('../images/calendar/vista/year-decade.gif') 0 -37px no-repeat;
+					}
+						.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-today:hover {
+							background: url('../images/calendar/vista/year-decade.gif') 0 -74px no-repeat;
+						}
+					.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-selected {
+						background: url('../images/calendar/vista/year-decade.gif') 0 -111px no-repeat;
+						color: #06c !important;
+					}
+						.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-selected:hover {
+							background: url('../images/calendar/vista/year-decade.gif') 0 -149px no-repeat;
+						}
+					.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-today.c86-selected {
+						background: url('../images/calendar/vista/year-decade.gif') 0 -187px no-repeat;
+					}
+						.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div.c86-today.c86-selected:hover {
+							background: url('../images/calendar/vista/year-decade.gif') 0 -225px no-repeat;
+						}
+			
+			.calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-month.c86-pickable .c86-row div:hover, 
+			  .calendar-eightysix.vista .c86-body .c86-inner .c86-container.c86-year-decade .c86-row div:hover {
+				color: #06c;
+			}
+		
+		/* Footer */
+		
+		.calendar-eightysix.vista .c86-footer {
+			display: none;
+		}

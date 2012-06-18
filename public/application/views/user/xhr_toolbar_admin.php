@@ -1,0 +1,3 @@
+<div class="toolbox divider">
+<span class="iconWrapper"><a onclick ="nw('mainPanel', 'user/list_items', 'Users', 0);" title="Users"><img src="images/icons/user_browse.png" width="16" height="16" alt="Users" /></a></span><?php if ($permissions->user->create) { ?><span class="iconWrapper"><a onclick ="nw('mainPanel', 'user/add', 'Add New Teammate');" title="Add New Teammate"><img src="images/icons/user_add.png" width="16" height="16" alt="Add New Teammate" /></a></span><?php } ?>
+</div>

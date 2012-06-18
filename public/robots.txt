@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /app/
+Disallow: /client/
+Disallow: /company/
+Disallow: /invoice/
+Disallow: /project/
+Disallow: /segment/
+Disallow: /user/
+Disallow: /worktype/

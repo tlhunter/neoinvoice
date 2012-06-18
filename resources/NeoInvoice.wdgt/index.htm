@@ -1,0 +1,101 @@
+<html>
+<head>
+<script type="text/javascript">
+var widgetVersion = 20110709;
+</script>
+<script src="jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body class="show-config">
+	<div id="document">
+		<div id="screen-input">
+			<div id="left-column" class="half-column">
+				<div id="project-field" class="field">
+					<select id="project" name="project">
+						<option>Project</option>
+						<option>Login First</option>
+					</select>
+				</div>
+				<div id="worktype-field" class="field">
+					<select id="worktype" name="worktype">
+						<option>Worktype</option>
+						<option>Login First</option>
+					</select>
+				</div>
+				<div id="ticket-field" class="field">
+					<select id="ticket" name="ticket">
+						<option>Ticket (Optional)</option>
+						<option>Login First</option>
+					</select>
+				</div>
+				<div id="button-field" class="field">
+					<input type="submit" class="button" value="Start Working" id="start-button" />
+				</div>
+			</div>
+			<div id="right-column" class="half-column">
+				<div id="notes-field" class="field">
+					<textarea id="notes" name="notes">Notes...</textarea>
+				</div>
+			</div>
+		</div>
+		<div id="screen-config">
+			<div id="config-left-column" class="half-column">
+				<div class="config-field">
+					<input name="username" id="username" placeholder="Username" type="text" />
+				</div>
+				<div class="config-field">
+					<input name="password" id="password" placeholder="Password" type="password" />
+					<input type="submit" id="login-button" value="Login" class="button" />
+				</div>
+				<div id="resolution-field" class="config-field">
+					<select id="resolution" name="resolution">
+						<option value="15">Time Accuracy</option>
+						<option value="5">5 Minutes</option>
+						<option value="15" selected>15 Minutes (default)</option>
+						<option value="30">30 Minutes</option>
+						<option value="60">60 Minutes</option>
+					</select>
+				</div>
+				<div id="default-project-field" class="config-field">
+					<select id="default-project" name="default-project">
+						<option>Default Project</option>
+						<option>Login First</option>
+					</select>
+				</div>
+				<div id="default-worktype-field" class="config-field">
+					<select id="default-worktype" name="default-worktype">
+						<option>Default Worktype</option>
+						<option>Login First</option>
+					</select>
+				</div>
+			</div>
+			<div id="config-right-column" class="half-column">
+				<div class="config-field">
+					<a id="link-register">Create NeoInvoice Account</a><br />
+				</div>
+				<div class="config-field">
+					<a id="link-help">NeoInvoice Time Widget Help</a>
+				</div>
+				<div class="config-field" id="widget-version">
+					<!-- Fills in via AJAX -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="drawer">
+		<div id="pre-time">
+			00:00:00
+		</div>
+		<div id="post-time">
+			00:00
+		</div>
+	</div>
+	<div id="config-link">
+		<img src="cog_go.png" id="config" />
+	</div>
+	<div id="notice">
+	
+	</div>
+</body>
+</html>

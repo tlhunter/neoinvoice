@@ -1,0 +1,43 @@
+/* Window Builder Form Elements */
+
+#newWindowForm .form {
+	padding: 0 0 10px 10px;	
+}		
+
+#newWindowForm {
+	width: 320px;
+}
+
+#newWindowForm .input {
+	width: 225px;
+}
+
+#desktop textarea {
+	width: 225px;
+	height: 60px;
+}
+
+#desktop .formLabel {
+	float: left;	
+	text-align: right;
+	width: 80px;
+	margin: 0 0 8px 0;
+	font-weight: bold;
+}
+
+#desktop .label {
+	font-size: 11px;
+	font-weight: bold;
+	padding-bottom: 2px;	
+}
+	
+#desktop .formField {
+	float: right;
+	padding: 0 0 0 0;
+	width: 230px;
+}
+
+#newWindowForm form .number {
+	width: 40px;
+}
+

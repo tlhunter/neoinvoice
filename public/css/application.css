@@ -1,0 +1,298 @@
+h1.panelTitle {
+	display: none;
+}
+.company_update {
+	margin: 10px;
+}
+.company_update h3, .company_update h4 {
+	margin: 0px;
+	padding: 0px;
+	line-height: 15px;
+}
+.company_update h4 {
+	margin-bottom: 5px;
+}
+tr.even td, th {
+	background-color: #fafafa;
+}
+tr.odd td {
+	background-color: #f4f4f4;
+}
+tr.even:hover td, tr.odd:hover td {
+	background-color: #d7e2f1;
+}
+/*
+.tableOverflow {
+	height: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+*/
+td.monetary,
+th.monetary {
+	white-space: nowrap;
+	text-align: right;
+}
+.icon_group {
+	margin: 10px;
+}
+.icon_group .icon_48 {
+	float: left;
+	width: 80px; height: 80px;
+	text-align: center;
+}
+.icon_group .icon_48 a {
+	display: block;
+	border: 1px solid #fff;
+}
+.icon_group .icon_48 a:hover {
+	background: #fafafa url("../images/icon_48_hover.png") no-repeat 50% 50%;
+	color: #333;
+	border: 1px solid #eee;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.icon_group .icon_48 img {
+	border: 0px;
+	margin-top: 4px;
+}
+.icon_group .icon_inside {
+	height: 56px;
+}
+.icon_group .icon_text {
+	font-size: 12px;
+}
+.icon_group .icon_clear {
+	line-height: 0px;
+	clear: both;
+}
+.mini_toolbar {
+	float: right;
+	border: 1px solid #ddd;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #eee;
+	padding: 4px 4px 0 0;
+	margin: 10px 10px 0 0;
+}
+.mini_toolbar a {
+	margin-left: 4px;
+}
+.pagify {
+	text-align: right;
+	padding: 1px 8px;
+	background-color: #ececec;
+}
+.pagify a {
+	margin-left: 4px;
+	padding: 1px 4px;
+	background-color: #ddd;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.pagify a:hover {
+	background-color: #fff;
+	color: #000;
+}
+.pagify a.current {
+	background-color: #666;
+	color: #fff;
+}
+.message_replace_table {
+	margin: 8px;
+}
+.dim {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+tr.line_bottom td {
+	border-bottom: 1px solid #eee;
+}
+.panelContentPad {
+	padding: 10px;
+}
+table.list_items {
+	/*margin: -10px;*/
+}
+table.list_items th a.current { color: #000; }
+.panel .past_due { color: #f60; }
+.invoice-window .invoice_amount {
+    height: 24px;
+	color: #00cc00;
+	text-shadow: #999 0px 1px 3px;
+	float: right;
+	text-align: right;
+	margin-left: 20px;
+}
+.invoice-window .invoice_dollars {
+    float: left;
+    font-size: 24px;
+    height: 24px;
+}
+.invoice-window .invoice_cents {
+    float: left;
+    height: 16px;
+    vertical-align: top;
+	line-height: 6px;
+}
+.invoice-window .project_name {
+	color: #666;
+	text-align: right;
+	float: left;
+}
+.invoice-window .invoice_remain {
+	color: orange;
+}
+.invoice-window .title {
+    text-shadow: none;
+    text-transform: uppercase;
+    font-size: 8px;
+    color: #999;
+    text-align: left;
+}
+.panel .hover-options {
+	visibility: hidden;
+	background: transparent url("../images/icons/refresh.png") no-repeat bottom left;
+	padding-left: 20px;
+}
+.panel .hover-options a {
+	color: #999;
+}
+.panel:hover .hover-options {
+	visibility: visible;
+}
+.panel .hover-options a:hover {
+	color: #333;
+}
+.panel .notice, .panel .error, .panel .success {
+	margin: 10px;
+}
+.menu-icon {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+}
+input.textual {
+	width: 128px;
+}
+.textual {
+	background-color: #fff;
+	padding: 1px;
+	border: 1px solid #ccc;
+}
+.textual:focus {
+	border-color: #ff6f00;
+}
+input.calendar {
+	background: #fff url("../images/calendar/calendar.gif") no-repeat 98% center !important;
+}
+select.textual {
+
+}
+input.readonly {
+	background-color: #eee;
+	padding: 1px;
+	border: 1px solid #999;
+	width: 128px;
+	color: #666;
+}
+input.button, a.button {
+	background: #eee url("../images/button.png") no-repeat bottom center;
+	border: 1px solid #666;
+	border-top-color: #777;
+	font-weight: bold;
+	padding: 2px 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #333;
+	text-shadow: #fff 0px 0px 2px;
+	cursor: default;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	height: auto;
+}
+input.button:hover, a.button:hover {
+	background: #e8eeff url("../images/button-hover.png") no-repeat bottom center;
+	color: #1f2b4c;
+}
+input.button:active, a.button:active {
+	background: #f9eed4 url("../images/button-press.png") no-repeat bottom center;
+	color: #3e2e1f;
+}
+table.data-input-table {
+	margin: 10px;
+}
+table.data-input-table td {
+	padding: 1px 8px 1px 0px;
+}
+table.data-input-table td.label-cell {
+	text-align: right;
+	font-weight: bold;
+	color: #333;
+}
+#client_list_invoice {
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+#client_list_invoice .button {
+	width: 140px;
+	display: block;
+}
+.client_link {
+	width: 150px;
+	float: left;
+	display: block;
+	margin: 4px;
+}
+.project_selection_column {
+	width: 280px;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+.window_footer_buttons {
+	border-top: 1px solid #ddd;
+	margin-top: 4px;
+	padding: 8px 0px 4px 0px;
+}
+.required {
+	font-size: 10px;
+	color: #ff6f00;
+}
+.important_permission {
+	background-color: #FFCEA7;
+}
+a.inactive-user {
+	color: #999 !important;
+}
+
+.icon-reload { background-image: url("../images/icons/refresh.png"); }
+.icon-dashboard { background-image: url("../images/icons/dashboard.png"); }
+.icon-motd { background-image: url("../images/icons/motd.png"); }
+.icon-windows { background-image: url("../images/icons/windows.png"); }
+.icon-preferences { background-image: url("../images/icons/preferences.png"); }
+.icon-logout { background-image: url("../images/icons/logout.png"); }
+.icon-project_add { background-image: url("../images/icons/project_add.png"); }
+.icon-client_add { background-image: url("../images/icons/client_add.png"); }
+.icon-user_add { background-image: url("../images/icons/user_add.png"); }
+.icon-delete { background-image: url("../images/icons/delete.png"); }
+.icon-upgrade { background-image: url("../images/icons/upgrade.png"); }
+.icon-users { background-image: url("../images/icons/users.png"); }
+.icon-delete_company { background-image: url("../images/icons/delete_company.png"); }
+.icon-worktypes { background-image: url("../images/icons/worktypes.png"); }
+.icon-worktype_add { background-image: url("../images/icons/worktype_add.png"); }
+
+.tree li.ticket-fine a { color: inherit; }
+.tree li.ticket-week a { color: #ff6f00; }
+.tree li.ticket-overdue a { color: #bb0000; }
+
+.notes-column {
+    color: #666;
+    font-style: italic;
+}

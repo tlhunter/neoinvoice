@@ -1,0 +1,117 @@
+body {
+	width: 460px;
+	height: 240px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("Default.png");
+	background-repeat: no-repeat;
+}
+#document {
+	height: 200px;
+	overflow: hidden;
+	font-family: arial;
+	font-size: 12px;
+	color: #fff;
+}
+.half-column {
+	width: 230px;
+	height: 240px;
+	float: left;
+}
+.field {
+	padding: 20px 20px 0 20px;
+}
+#screen-config .half-column {
+	padding-top: 8px;
+}
+.config-field {
+	padding: 8px 20px 0 20px;
+}
+.field select,
+.config-field select,
+.field input.button {
+	width: 190px;
+	font-size: 18px;
+}
+.field input,
+.config-field input {
+	font-size: 15px;
+	width: 190px;
+}
+#password {
+	width: 120px;
+}
+#login-button {
+	width: 60px;
+	font-size: 18px;
+	float: right;
+}
+textarea {
+	resize: none;
+}
+#notes {
+	width: 190px;
+	height: 160px;
+	font-size: 15px;
+}
+#drawer {
+	width: 460px;
+	height: 45px;
+	background: transparent url("drawer.png") no-repeat bottom left;
+	clear: both;
+	display: none;
+	top: 190px;
+	position: absolute;
+	color: white;
+	font-family: arial;
+}
+#pre-time {
+	position: absolute;
+	font-size: 20px;
+	left: 40px;
+	top: 5px;
+	width: 150px;
+	text-align: center;
+}
+#post-time {
+	position: absolute;
+	font-size: 20px;
+	left: 270px;
+	top: 5px;
+	width: 150px;
+	text-align: center;
+}
+body.show-config:hover #config-link {
+	visibility: visible;
+}
+#config-link {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 180px;
+	left: 440px;
+	z-index: 100;
+	cursor: pointer;
+	visibility: hidden;
+}
+#notice {
+	width: 300px;
+	padding: 5px 0;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	background-color: rgba(0,0,0,0.85);
+	z-index: 200;
+	border-radius: 4px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+	color: #ff6f00;
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+	display: none;
+}
+a {
+	color: #006fff;
+	text-decoration: underline;
+	cursor: pointer;
+}

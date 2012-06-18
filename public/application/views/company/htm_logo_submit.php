@@ -1,0 +1,1 @@
+<div class="<?=$success ? 'success' : 'error'?>"><?=$message?></div>

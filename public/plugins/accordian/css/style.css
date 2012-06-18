@@ -1,0 +1,27 @@
+/* Accordian */
+
+.accordianWrapper {
+	padding: 0;
+	/* background: #f00; Uncomment this if you want to change the background of the accordian sections. */	
+}
+
+.accordianToggler {
+	margin: 0;
+	padding: 6px 10px;
+	background: #f1f1f1 url(../../../themes/default/images/bg-panel-header.gif) repeat-x;
+	font-size: 12px;
+	cursor: pointer;
+	border-top: 1px solid #e3e3e3;	
+}
+
+.topToggler {
+	border-top: none;
+}
+
+.accordianToggler.open {
+	/* background: #f00; Uncomment this if you want to change the background of the open section's header */	
+}
+
+.accordianContent {
+	padding: 10px 10px 5px 10px;
+}

@@ -1,0 +1,3 @@
+<div class="toolbox divider">
+<span class="iconWrapper"><a onclick ="nw('mainPanel', 'invoice/list_items', 'Invoices', 0);" title="Invoices"><img src="images/icons/invoice_browse.png" width="16" height="16" alt="Invoices" /></a></span><?php if ($permissions->invoice->create) { ?><span class="iconWrapper"><a onclick ="nw('mainPanel', 'invoice/add', 'New Invoice');" title="New Invoice"><img src="images/icons/invoice_add.png" width="16" height="16" alt="New Invoice" /></a></span><?php } ?>
+</div>

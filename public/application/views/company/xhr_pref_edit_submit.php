@@ -1,0 +1,2 @@
+<h1 class="panelTitle">Company Preferences Saved</h1>
+<div class="success">Preferences have been saved. For some settings to take effect the application interface will need to be <a onClick="window.location.reload(true);">reloaded</a>.</div>

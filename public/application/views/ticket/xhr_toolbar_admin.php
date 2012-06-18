@@ -1,0 +1,3 @@
+<div class="toolbox divider">
+<span class="iconWrapper"><a onclick ="nw('mainPanel', 'ticket/list_items', 'Tickets', 0);" title="Tickets"><img src="images/icons/ticket_browse.png" width="16" height="16" alt="Tickets" /></a></span><?php if ($permissions->ticket->create) { ?><span class="iconWrapper"><a onclick ="nw('mainPanel', 'ticket/add', 'Add Ticket');" title="Add Ticket"><img src="images/icons/ticket_add.png" width="16" height="16" alt="Add Ticket" /></a></span><?php } ?>
+</div>

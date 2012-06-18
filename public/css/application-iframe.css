@@ -1,0 +1,19 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+    padding: 10px;
+}
+
+.error,
+.notice,
+.success    { padding: 8px; margin-bottom: 10px; border: 2px solid #ddd; }
+.error a,
+.notice a,
+.success a	{ text-decoration: underline; }
+.error      { background: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #817134; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #529214; border-color: #C6D880; }
+.error a    { color: #D12F19; }
+.notice a   { color: #817134; }
+.success a  { color: #529214; }

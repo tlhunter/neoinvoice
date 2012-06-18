@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#animation {
+	position: relative;
+	margin: 15px;	
+	width: 300px;
+	height: 300px;
+}
+
+#canvasPath {
+	position: absolute;
+	z-index: 1000;	
+	width: 300px;
+	height: 300px;
+}
+		
+#sprite {
+	position: absolute;
+	z-index: 1000;
+	width: 10px;
+	height: 10px;	
+}	

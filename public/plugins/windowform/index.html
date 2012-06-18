@@ -1,0 +1,67 @@
+<div class="form">
+<form id="newWindowForm" action="#" method="get">
+	
+	<div class="formRow">
+	<div class="formLabel">Title:</div>
+	<div class="formField"><input type="text" class="input" id="newWindowHeaderTitle" value="My Header Title" maxlength="38" /></div>
+	<div class="clear"></div>
+	</div>
+
+	<div class="formRow">
+	<div class="formLabel">Load Method:</div>
+	<div class="formField">
+	<input type="radio" name="loadMethod" id="htmlLoadMethod" value="html" checked="checked" /><label for="htmlLoadMethod"> Enter HTML</label><br />
+	<input type="radio" name="loadMethod" id="iframeLoadMethod" value="iframe" /><label for="iframeLoadMethod"> Load URL into iframe</label></div>
+	<div class="clear"></div>
+	</div>
+	
+	<div class="formRow">
+	<div class="formLabel">Content:</div>
+	<div class="formField"><textarea id="newWindowContent" class="input">This is my window content.</textarea></div>
+	<div class="clear"></div>
+	</div>
+
+	<div class="formRow">
+	<div class="formLabel">Content URL:</div>
+	<div class="formField"><input type="text" class="input" id="newWindowContentURL" value="http://www.google.com/" maxlength="250" /></div>
+	<div class="clear"></div>
+	</div>
+	
+	<div class="formRow">
+	<div class="formLabel">Width:</div>
+	<div class="formField"><input type="text" class="input number" id="newWindowWidth" value="300" maxlength="4" /></div>
+	<div class="clear"></div>
+	</div>
+	
+	<div class="formRow">
+	<div class="formLabel">Height:</div>
+	<div class="formField"><input type="text" class="input number" id="newWindowHeight" value="125" maxlength="4" /></div>
+	<div class="clear"></div>
+	</div>
+	
+	<div class="formRow">
+	<div class="formLabel">x:</div>
+	<div class="formField"><input type="text" class="input number" id="newWindowX" value="" maxlength="4" /></div>
+	<div class="clear"></div>
+	</div>
+	
+	<div class="formRow">
+	<div class="formLabel">y:</div>
+	<div class="formField"><input type="text" class="input number" id="newWindowY" value="" maxlength="4" /></div>
+	<div class="clear"></div>
+	</div>
+	
+	<div class="formRow">
+	<div class="formLabel">Modal:</div>
+	<div class="formField"><input type="checkbox" id="newWindowModal" value="true" /></div>
+	<div class="clear"></div>	
+	</div>
+	
+	<div class="buttonRow">
+	<div class="formLabel"></div>
+	<div class="formField"><input type="submit" id="newWindowSubmit" class="button" value="Create New Window" /></div>
+	<div class="clear"></div>
+	</div>
+		
+</form>
+</div>

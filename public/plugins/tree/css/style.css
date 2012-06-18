@@ -1,0 +1,26 @@
+/* Folder Tree */
+
+.tree {
+	font-size: 11px;
+	line-height: 15px;
+	margin: 0 0 10px 0;
+}
+
+.tree ul {
+	margin: 0;
+}
+
+.tree li {
+	list-style-type: none;
+	white-space: nowrap;
+}	
+
+.tree li img {
+	vertical-align: middle;
+	overflow: hidden;
+	margin-left: 2px;
+}
+
+.tree li span {
+	padding-left: 2px;
+}

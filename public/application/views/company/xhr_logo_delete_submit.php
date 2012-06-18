@@ -1,0 +1,2 @@
+<h1 class="panelTitle">Logo Image Deleted</h1>
+<div class="success">Your logo image has been deleted and invoices will now use the name of your company in text. To set a different logo image you may return to the company preferences screen.</div>

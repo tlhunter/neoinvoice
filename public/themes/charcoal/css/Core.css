@@ -1,0 +1,70 @@
+/*
+
+Core.css for Mocha UI
+
+Theme: Charcoal
+
+Copyright:
+	Copyright (c) 2007-2009 Greg Houston, <http://greghoustondesign.com/>.
+	
+License:
+	MIT-style license.
+
+Notes:
+	CSS rules in this file:
+	
+	1. Rules required by all MochaUI components or are shared by more than one.
+	2. Theme specific ajustments to default plugin styles.
+	3. Rules that have no better place to go.
+ 
+*/
+
+/* Required By All
+---------------------------------------------------------------- */
+
+/* Clears */
+
+.clear {
+	clear: both;
+	height: 0;
+}
+
+* html .clear {
+	font-size: 1px;
+	line-height: 1px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* Miscellaneous
+---------------------------------------------------------------- */
+
+#themeControl {
+	margin-top: 2px;	
+}
+
+
+/* Theme Specific Adjustments to Default Plugin Styles
+---------------------------------------------------------------- */
+
+/* Accordian */
+
+.accordianToggler {
+	background: #4c4c4c url(../images/bg-panel-header.gif) repeat-x !important;
+	border-top: 1px solid #141414 !important;	
+}
+
+.topToggler {
+	border-top: none !important;
+}
+
+/* Sliders */
+
+.sliderarea {
+	background: #292929 !important;
+	border: 1px solid #222 !important;
+}
+ 
+.sliderknob {
+	background: url(../images/knob.gif) no-repeat !important;
+}	
