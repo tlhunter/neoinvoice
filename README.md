@@ -14,6 +14,13 @@ NeoInvoice is a set of software tools useful to most online / service businsses.
 a single app, meant to be used by many different companies, each company having many
 different users, all having their own login credentials.
 
+Screenshots and Video
+=
+
+Visit this page for a video of me showing off all of the features, and some technical
+explanation, as well as a bunch of high rez screenshots:
+http://thomashunter.name/blog/neoinvoice-post-mortem/
+
 Features
 =
 
