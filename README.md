@@ -7,6 +7,15 @@ the app. Two years later, after never making a dime and paying about over $1,000
 hosting costs, I finally realized it was costing more money than it was making me,
 so I shut down the app and open sourced it.
 
+Donations
+=
+
+Did this project help you learn something new? Do you plan on forking this project and
+using it for a business? Are you a fan of open source projects in general and would
+like to give back? If any of these apply to you, feel free to donate here:
+
+https://www.wepay.com/donations/neoinvoice-donations
+
 What is NeoInvoice?
 =
 
