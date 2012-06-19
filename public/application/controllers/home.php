@@ -15,12 +15,13 @@ class Home extends Controller {
 	
 	function index() {
 		$data = $this->document->generate_page_data();
-		$data['tweets'] = $this->multicache->get("neoinvoice_tweets");
-		if (!$data['tweets']) {
-			$this->load->library('twitter', array('twitter_id' => 'neoinvoice'));
-			$data['tweets'] = $this->twitter->execute();
-			$this->multicache->set("neoinvoice_tweets", $data['tweets'], 3600);
-		}
+		//$data['tweets'] = $this->multicache->get("neoinvoice_tweets");
+		//if (!$data['tweets']) {
+			//$this->load->library('twitter', array('twitter_id' => 'neoinvoice'));
+			//$data['tweets'] = $this->twitter->execute();
+			//$this->multicache->set("neoinvoice_tweets", $data['tweets'], 3600);
+		//}
+        $data['tweets'] = 'disabled';
 		$data['display_login_bar'] = TRUE;
 		$this->template->load('main_template', 'home', $data);
 	}
