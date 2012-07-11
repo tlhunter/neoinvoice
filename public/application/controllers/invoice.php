@@ -7,6 +7,7 @@ class Invoice extends App_Controller {
 
 	function list_items($page = 0, $sort_col = 'name') {
 		$this->load->helper('table_sort_helper');
+		$sort_col = preg_replace('/[^a-z\-_]*/','', $sort_col); //remove invalid characters to prevent SQL-injections
 		$data['invoices'] = $this->invoice_model->select_multiple($this->session->userdata('company_id'), $page, $this->pref_user['per_page'], TRUE, $sort_col);
 		$data['total'] = $this->invoice_model->get_total($this->session->userdata('company_id'));
 		$data['page'] = $page;
