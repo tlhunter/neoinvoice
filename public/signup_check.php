@@ -26,7 +26,7 @@ $connect = mysql_connect(MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_PASSWORD);
 if (!$connect) {
 	die("<div class=\"error\">" . mysql_error() . "</div>");
 }
-$query = "SELECT $field FROM $table WHERE $field = '$value' LIMIT 1";
+$query = mysql_real_escape_string("SELECT $field FROM $table WHERE $field = '$value' LIMIT 1"); // Prevent SQL Injection
 
 mysql_select_db(MYSQL_DATABASE, $connect);
 $result = mysql_query($query, $connect);
